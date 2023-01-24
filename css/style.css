@@ -9,10 +9,9 @@ body {
 }
 header {
     background-color: rgb(37, 94, 233);
-    height: 400px;
-    
-}
-.debug .header-top {
+    }
+
+.header-top {
     width: 1170px;
     margin: auto;
     display: flex;
@@ -24,16 +23,6 @@ header {
     font-size: 25px;
     padding: 10px 0px;
     font-weight: 500;
-}
-
-.logo-text {
-    display: inline-block;
-    font-size: 100%;
-}
-
-i{
-    padding: 0px 10px;
-    font-size: 100%;
 }
 
 .login {
@@ -106,3 +95,72 @@ ul{
 .arrow {
     font-size: 20px;
 }
+
+.main-container{
+    width: 1170px;
+    margin: 150px auto;
+    display: flex;
+    padding: 25px 0px;
+}
+
+.bg-grey{
+    background-color: rgb(246, 246, 246);
+}
+
+.main-h2{
+    font-size: 48px;
+    margin-bottom: 30px;
+}
+
+.main-img{
+    font-size: 50px;
+    width: 70%;
+    height: 400px;
+}
+
+.main-p {
+    font-size: 20px;
+    line-height: 35px;
+}
+.main-text{
+    width: 30%;
+}
+
+.last-section {
+    display: flex;
+    justify-content: center;
+}
+
+.big-text{
+    width: 1170px;
+    text-align: center;
+    padding: 50px 0px;
+}
+
+.ending {
+    display: flex;
+    justify-content: center;
+}
+ h4 {
+    font-size: 32px;
+    padding: 20px;
+ }
+
+.column > button {
+     font-size: 20px;
+     padding: 16px 32px;
+     border-radius: 50px;
+     border-style: none;
+     background-color: rgb(114, 137, 218);
+     color: white;
+     margin: 0px 0px 50px 200px;
+ }
+
+.stars{
+    background-image: url(../img/stars.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 50px;
+    margin-top: 50px;
+}
+
