@@ -2,8 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
 }
-
 body {
     font-family: 'Rubik', sans-serif;
 }
@@ -42,7 +42,7 @@ a{
     margin: 0px 35px;
 }
 
-ul{
+.links-list{
     list-style: none;
     display: flex;
     justify-content: space-between;
@@ -90,12 +90,13 @@ ul{
     padding: 16px 32px;
     border-radius: 50px;
     border-style: none;
-}
+}   
 
 .arrow {
-    font-size: 20px;
+    width: 24px;
+    display: inline-block;
+    padding-right: 15px;
 }
-
 .main-container{
     width: 1170px;
     margin: 150px auto;
@@ -141,12 +142,12 @@ ul{
     display: flex;
     justify-content: center;
 }
- h4 {
+#h4-title {
     font-size: 32px;
     padding: 20px;
  }
 
-.column > button {
+.credits > button {
      font-size: 20px;
      padding: 16px 32px;
      border-radius: 50px;
@@ -164,3 +165,85 @@ ul{
     margin-top: 50px;
 }
 
+footer{
+    background-color: rgb(35, 39, 42);
+}
+.footer-container {
+    width: 1170px;
+    margin: auto;
+}
+.footer-top{
+    display: flex;
+    padding: 100px 0px 50px;
+}
+.main-footer{
+    width: 25%;
+}
+.footer-title{
+    color: rgb(88, 101, 242);
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.language{
+    color: white;
+}
+
+.language::after{
+    content: '\2228';
+    color: white;
+}
+
+.list{
+    display: inline-block;
+}
+.ita-flag{
+    height: 12px;
+}
+.list-container {
+    width: 75%;
+    display: flex;
+}
+
+#list-title{
+    color: rgb(88, 101, 242);
+    margin: 0px 35px;
+}
+
+.column{
+    margin-right: 10%;
+}
+
+.footer-list > li{
+    color: white;
+    padding: 10px 0px;
+}
+
+.footer-list{
+    list-style: none;
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 0px 50px;
+}
+
+.footer-bottom button {
+    font-size: 14px;
+    padding: 7px 16px;
+    border-radius: 50px;
+    border-style: none;
+    background-color: rgb(114, 137, 218);
+    color: white;
+}
+
+.icons{
+    color: white;
+    padding: 10px 0px;
+}
+
+.icons i{
+    margin-right: 5px;
+}
