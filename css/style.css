@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Rubik', sans-serif;
+}
+header {
+    background-color: rgb(37, 94, 233);
+    height: 400px;
+    
+}
+.debug .header-top {
+    width: 1170px;
+    margin: auto;
+    display: flex;
+}
+
+.logo {
+    width: 20%;
+    color: white;
+    font-size: 25px;
+    padding: 10px 0px;
+    font-weight: 500;
+}
+
+.logo-text {
+    display: inline-block;
+    font-size: 100%;
+}
+
+i{
+    padding: 0px 10px;
+    font-size: 100%;
+}
+
+.login {
+    width: 20%;
+    text-align: end;
+    padding: 20px 0px;
+}
+
+.links {
+    width: 60%;
+    padding: 20px 0px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    margin: 0px 35px;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.button-up {
+    font-size: 14px;
+    border-radius: 30px;
+    padding: 7px 16px;
+    border-style: none;
+}
+
+.bg-image{
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    height: 700px;
+}
+
+.header-bottom {
+    color: white;
+    margin: auto;
+    width: 50%;
+    text-align: center;
+}
+
+.header-title{
+    font-size: 50px;
+    padding-top: 200px;
+    padding-bottom: 50px;
+}
+
+.header-p{
+    padding-bottom: 25px;
+    font-size: 20px;
+    line-height: 35px;
+}
+
+#black-b {
+    background-color: rgb(35, 39, 42);
+    color: white;
+}
+
+.header-bottom > button {
+    font-size: 20px;
+    padding: 16px 32px;
+    border-radius: 50px;
+    border-style: none;
+}
+
+.arrow {
+    font-size: 20px;
+}
