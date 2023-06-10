@@ -91,10 +91,13 @@ a{
     border-radius: 50px;
     border-style: none;
 }   
+/*
+.arrow {
+    width: 24px;
+    display: inline-block;
+    padding-right: 15px;
+}*/
 
-#arrow {
-    padding-right: 10px;
-}
 .main-container{
     width: 1170px;
     margin: 150px auto;

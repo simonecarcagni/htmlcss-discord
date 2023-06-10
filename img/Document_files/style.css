@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}   
+
+.debug main {
+    background-color: black;
+}
+
+.debug .footer{
+    background-color: grey;
+}
+
+.debug .sidebar{
+    background-color: tomato;
+}
+
+.debug .content{
+    background-color: darkgoldenrod;
+}
+
+.debug .content-nav{
+    background-color: blue;
+    height: 50px;
+}
+
+.debug .cover-list{
+    border: dashed 2px black;
+}
+
+.debug .cover-container{
+    background-color: aliceblue;
+    height: 200px;
+}
+
+.footer {
+    height: 100px;
+}
+
+.call-to-action{
+    position: fixed;
+    left: 50px;
+    top: 0px;
+    height: 70px;
+    background-color: rgba(255, 255, 255, 0.5);
+    width: calc(100% - 50px);
+}
+
+main {
+    height: calc(100vh - 100px);
+}
+
+aside {
+    width: 50px;
+}
+
+.content {
+    width: calc(100% - 50px);
+}
+
+.cover-list {
+    list-style: none;
+}
+
+.cover-item {
+    width: 50%;
+}
+
+.cover-container {
+    margin: 20px;
+}
+
+.content-nav{
+    margin-top: 70px;
+}
+
+/*utility*/
+
+.d-flex {
+    display: flex;
+}
+
+.wrap{
+    flex-wrap: wrap;
+}
+
+.overflow-scroll{
+    overflow-y: scroll;
+}
+
+@media screen and (min-width: 576px){
+
+    .sidebar {
+        width: 200px;
+    }
+
+    .content {
+        width: calc(100% -200px);
+    }
+
+    .call-to-action {
+        width: calc(100% - 200px);
+        left: 200px;
+    }
+    
+}
+
+@media screen and (min-width: 768px) {
+
+    .cover-item {
+        width: 25%;
+    }
+
+    
+}
+
+@media screen and (min-width: 768px) {
+
+    .cover-item {
+        width: calc(100% / 6)
+    }
+
+
+}
